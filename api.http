@@ -1,0 +1,9 @@
+GET http://localhost:3333/
+
+###
+GET http://localhost:3333/login
+Authorization: Basic email@example.com:1234
+
+###
+GET http://localhost:3333/private
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoie1wibmFtZVwiOlwiQ2FybG9zXCIsXCJlbWFpbFwiOlwiZW1haWxAZXhhbXBsZS5jb21cIn0iLCJpYXQiOjE3MzMyNjg1NDgsImV4cCI6MTczMzI3MjE0OH0.YULcpeKY0cD3xdWji_3h9ez12xD3_K9zpJNkbZEPItY
